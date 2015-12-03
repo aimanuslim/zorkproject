@@ -14,6 +14,7 @@ public:
 	string name;
 	int status;
 	string type;
+	vector <Trigger> triggers;
 	virtual ~Object();
 };
 

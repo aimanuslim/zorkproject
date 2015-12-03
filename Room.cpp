@@ -1,18 +1,17 @@
 /*
- * Object.cpp
+ * Room.cpp
  *
  *  Created on: Dec 2, 2015
  *      Author: amduslim
  */
 
-#include "Zork.h"
-#include "Object.h"
+#include "Room.h"
 
-Object::Object() {
+Room::Room() {
 	// TODO Auto-generated constructor stub
 
 }
 
-Object::~Object() {
+Room::~Room() {
 	// TODO Auto-generated destructor stub
 }
