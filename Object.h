@@ -8,14 +8,23 @@
 #ifndef OBJECT_H_
 #define OBJECT_H_
 
+#include "Zork.h"
+#include "Triggers.h"
+#include <string>
+using std::string;
+
 class Object {
+
+
 public:
-	Object();
+	Object(string nm);
 	string name;
-	int status;
 	string type;
-	vector <Trigger> triggers;
+	string description;
+	string status;
 	virtual ~Object();
+
+
 };
 
 #endif /* OBJECT_H_ */

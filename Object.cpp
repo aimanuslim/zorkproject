@@ -7,8 +7,9 @@
 
 #include "Zork.h"
 #include "Object.h"
+using std::string;
 
-Object::Object() {
+Object::Object(string nm): name(nm) {
 	// TODO Auto-generated constructor stub
 
 }
